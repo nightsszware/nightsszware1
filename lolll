@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Nightsszware", "Ocean")
+
+
+local Tab = Window:NewTab("Lock")
+local FunSection = Tab:NewSection("Updates will be coming soon")
+FunSection:NewButton("Lock", "gives u aim cause ur trash", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/diegxw/lock-streamable/main/legit"))()
+end)
+FunSection:NewKeybind("Keybind (V)", "Keybind", Enum.KeyCode.V, function()
+	Library:ToggleUI()
+end)
